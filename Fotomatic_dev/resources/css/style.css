@@ -1,0 +1,166 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 1.6rem;
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+    color: #333;
+    line-height: 1.5;
+    overflow-x: hidden;
+    position: relative;
+}
+
+.image-container img {
+    display: block;
+    width: 100%;
+}
+
+.center {
+    text-align: center;
+}
+
+
+/* HEADER */
+
+.header-content {
+    width: 100%;
+    padding: 1.2rem 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #fff;
+    z-index: 100;
+}
+
+.desktop {
+    display: none;
+}
+
+.mobile {}
+
+.mobile ul {
+    height: auto;
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.mobile li {}
+
+.mobile .button {
+    background-color: #9dc20b;
+    border-radius: 4px;
+    padding: 8px 10px;
+    text-decoration: none;
+    color: #fff;
+}
+
+
+/* Main Content */
+
+.main-content {
+    margin-top: 5.4rem;
+}
+
+
+/* Sign up section */
+
+.banner {
+    background-image: url("../images/banner-landingpage.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 30rem;
+}
+
+.header {
+    height: 30rem;
+    color: #fff;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.header h2 {
+    font-family: cursive;
+    font-style: italic;
+}
+
+.email {
+    display: none;
+}
+
+
+/* Features Section */
+
+.feature {
+    padding: 2rem;
+}
+
+.feature:first-child {
+    background-color: #ccc;
+}
+
+.content {
+    padding: 3rem 2rem;
+}
+
+.content h2 {
+    font-size: 1.8rem;
+    margin-bottom: 2rem;
+}
+
+.content h3 {
+    font-size: 1.6rem;
+    font-weight: 400;
+}
+
+
+/* Filters Section */
+
+#filters-section .content {
+    background-color: #333;
+    color: #fff;
+}
+
+.images-container {
+    display: flex;
+}
+
+.extra {
+    display: none;
+}
+
+
+/* Quotes Section */
+
+.quote {
+    font-family: 'Damion';
+    font-size: 2.8rem;
+    line-height: 1.4;
+}
+
+.quote-citation {
+    margin-top: 3rem;
+}
+
+
+/* Footer */
+
+footer {
+    background-color: #ccc;
+}
+
+footer .content {
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.2rem;
+}
