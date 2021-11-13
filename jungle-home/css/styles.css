@@ -30,7 +30,6 @@ body {
     color: var(--grey-dark-1);
     max-width: 120rem;
     margin: 0 auto;
-    background-color: #fff;
 }
 
 img {
@@ -50,7 +49,6 @@ img {
 */
 
 .hero {
-    height: 40vh;
     background-image: linear-gradient(rgba(0, 0, 0, .6), rgba(0, 0, 0, .6)), url("../img/home-hero.jpg");
     background-size: cover;
     background-position: center;
@@ -202,7 +200,7 @@ img {
 }
 
 .card {
-    width: 35rem;
+    width: 80%;
     background-color: #ddd;
     text-align: center;
     font-size: 1.8rem;
